@@ -65,6 +65,3 @@ This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-
 
 This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
 
-### Troubleshooting
-
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)

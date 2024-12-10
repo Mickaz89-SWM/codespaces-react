@@ -22,6 +22,9 @@ function App() {
           </a>
         </p>
       </header>
+      <body>
+          I love React
+      </body>
     </div>
   );
 }

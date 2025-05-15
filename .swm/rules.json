@@ -1,0 +1,20 @@
+{
+    "rules": {
+        "c5977080-eb8c-4bda-8dec-56465d61b926": {
+            "name": "Test",
+            "rule": {
+                "type": "regex",
+                "regex": "logger\\.error\\(\\{\\s*error\\s*\\}",
+                "ignoreCase": false
+            },
+            "actions": {
+                "ide": {
+                    "message": "Expect err"
+                }
+            }
+        }
+    },
+    "view_order": [
+        "c5977080-eb8c-4bda-8dec-56465d61b926"
+    ]
+}

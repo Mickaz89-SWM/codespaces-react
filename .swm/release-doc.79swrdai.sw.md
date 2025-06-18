@@ -38,7 +38,9 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals(); //hello
+console.log('App is running');
+console.log('Environment:', process.env.NODE_ENV);
+reportWebVitals();
 ```
 
 ---
@@ -47,7 +49,7 @@ reportWebVitals(); //hello
 
 &nbsp;
 
-<SwmSnippet path="src/App.jsx" line="3">
+<SwmSnippet path="/src/App.jsx" line="3">
 
 ---
 
@@ -62,36 +64,35 @@ function App() {
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
-        <p className="small">
 ```
 
 ---
 
 </SwmSnippet>
 
-<SwmSnippet path="/src/App.jsx" line="12">
+<SwmSnippet path="src/App.jsx" line="1">
 
 ---
 
 &nbsp;
 
 ```javascript
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          GitHub Codespaces <span className="heart">♥️</span> React
         </p>
       </header>
     </div>
   );
 }
+
+export default App;
 
 ```
 
@@ -112,4 +113,4 @@ graph TD
 
 &nbsp;
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBY29kZXNwYWNlcy1yZWFjdCUzQSUzQU1pY2thejg5LVNXTQ==" repo-name="codespaces-react"><sup>Powered by [Swimm](https://staging.swimm.cloud/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBY29kZXNwYWNlcy1yZWFjdCUzQSUzQU1pY2thejg5LVNXTQ==" repo-name="codespaces-react"><sup>Powered by [Swimm](http://localhost:5000/)</sup></SwmMeta>

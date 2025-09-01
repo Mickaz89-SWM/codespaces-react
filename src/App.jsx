@@ -9,6 +9,9 @@ function App() {
           GitHub Codespaces <span className="heart">♥️</span> React
         </p>
       </header>
+      <body>
+          I love React
+      </body>
     </div>
   );
 }
